@@ -8,7 +8,7 @@ The upstream development for `st` can be found [here](https://git.suckless.org/s
 
 # Patches
 
-- [alpha](https://st.suckless.org/patches/alpha/)
+- [alpha](https://st.suckless.org/patches/alpha_focus_highlight/)
 - [clipboard](https://st.suckless.org/patches/clipboard/)
 - [ligatures](https://st.suckless.org/patches/ligatures/)
 - [pipe](https://st.suckless.org/patches/externalpipe/)
