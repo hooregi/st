@@ -1,6 +1,6 @@
 # Maintainer: Hooregi <hooregi@halo.fm>
 pkgname=st-hooregi-git
-pkgver=0.8.5.r1147.617788f
+pkgver=0.8.5.r1150.06cb235
 pkgrel=1
 epoch=
 pkgdesc="Hooregi's build of suckless' simple terminal (st)"
