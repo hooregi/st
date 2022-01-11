@@ -26,19 +26,19 @@ validpgpkeys=()
 
 pkgver() {
 	cd "${_pkgname}"
-    printf "0.8.5.r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
+  printf "0.8.5.r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
 }
 
 build() {
 	cd st
-    make X11INC=/usr/include/X11 X11LIB=/usr/lib/X11
+  make X11INC=/usr/include/X11 X11LIB=/usr/lib/X11
 }
 
 package() {
-    cd st
-    mkdir -p ${pkgdir}/opt/${pkgname}
-    cp -rf * ${pkgdir}/opt/${pkgname}
-    make PREFIX=/usr DESTDIR="${pkgdir}" install
-    install -Dm644 LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
-    install -Dm644 README "${pkgdir}/usr/share/doc/${pkgname}/README"
+  cd st
+  mkdir -p ${pkgdir}/opt/${pkgname}
+  cp -rf * ${pkgdir}/opt/${pkgname}
+  make PREFIX=/usr DESTDIR="${pkgdir}" install
+  install -Dm644 LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+  install -Dm644 README "${pkgdir}/usr/share/doc/${pkgname}/README"
 }

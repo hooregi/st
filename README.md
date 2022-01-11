@@ -11,8 +11,8 @@ The upstream development for `st` can be found [here](https://git.suckless.org/s
 - [alpha](https://st.suckless.org/patches/alpha/)
 - [clipboard](https://st.suckless.org/patches/clipboard/)
 - [ligatures](https://st.suckless.org/patches/ligatures/)
+- [pipe](https://st.suckless.org/patches/externalpipe/)
 - [scrollback](https://st.suckless.org/patches/scrollback/)
-- [vim](https://st.suckless.org/patches/vim_browse/)
 - [xresources](https://st.suckless.org/patches/xresources/)
 
 # Arch Linux Install
