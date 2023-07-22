@@ -34,7 +34,7 @@ sudo pacman -U *.pkg.tar.zst
 Download the source code from this repository:
 
 ```
-git clone https://gitlab.com/Hooregi/st.git
+git clone https://github.com/hooregi/st.git
 cd st
 sudo make clean install
 ```
